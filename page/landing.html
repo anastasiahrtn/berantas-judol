@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BERANTAS JUDOL</title>
+
+    <link rel="icon" type="image/png" href="./assets/icon-01.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="oops">
+        Oops, Judol bukan jalan yang benar!
+    </div>
+
+    <div class="quote" id="quote"></div>
+
+    <a href="">
+        <div class="button">
+            Layanan Rehabilitasi Pecandu Judol
+        </div>
+    </a>
+    
+
+    <div class="logocontainer">
+       <img src="assets/logo4.png" alt="BERANTAS JUDOL" class="logo">
+       <div class="desc">Ayo Berantas Judol! is a social initiative project created to help reduce the spread and accessibility of online gambling through preventive technology and digital awareness. This project was created as a reminder that technology should protect people, not trap them in harmful habits.</div>
+    </div>
+
+
+    <footer class="footer">
+        <img src="assets\anastasiahrtn.png" alt="anastasiahrtn" class="anastasiahrtn">
+    </footer>
+
+
+    <script>
+        const quotes = [
+            "Kami hentikan aksesnya. Kamu lanjutkan hidupnya.",
+            "Bukan untuk menghakimi. Untuk membantu berhenti.",
+            "Menjauh sedikit hari ini, menyelamatkan banyak hal nanti.",
+            "Karena dirimu lebih berharga dari taruhan.",
+            "Kadang yang kita butuh cuma penghalang kecil."
+        ];
+
+        // pick random quote
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        const selectedQuote = quotes[randomIndex];
+
+        // insert into div
+        document.getElementById("quote").textContent = selectedQuote;
+    </script>
+</body>
+</html>

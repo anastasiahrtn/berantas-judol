@@ -1,0 +1,172 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e7e0;
+}
+
+.oops {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+
+    font-size: 63px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+
+.logocontainer {
+    position: absolute;
+    display: flex;
+    align-items: center; /* vertical alignment */
+    gap: 30px; /* space between image and text */
+
+    top: calc(15% + 430px);
+    left: calc(10% + 10px);
+    right: 10%;
+}
+
+.quote {
+    position: absolute;
+    top: calc(15% + 160px); 
+    left: 10%;
+    right: 10%;
+
+    font-size: 40px;
+    color: rgb(59, 39, 39);
+}
+
+.logo {
+    position: absolute;
+    width: 350px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.desc {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.6;
+
+    margin-left: 400px;
+    margin-right: 5%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    position: absolute;
+
+    top: calc(15% + 310px); 
+    left: 10%;
+
+    padding: 16px 28px;
+
+    background: rgb(220, 38, 38);
+    color: white;
+
+    font-size: 25px;
+    font-weight: 600;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+}
+
+.button:hover {
+    background: rgb(185, 28, 28);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(255, 0, 0, 0.25);
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    font-size: 14px;
+    background-color: black;
+    padding: 15px 15px;
+}
+
+.anastasiahrtn {
+    width: 200px;
+}
+
+
+@media (max-width: 768px) {
+
+    .oops {
+        top: 8%;
+        left: 7%;
+        right: 7%;
+
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .quote {
+        top: calc(8% + 110px);
+        left: 7%;
+        right: 7%;
+
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .button {
+        top: calc(8% + 230px);
+        left: 7%;
+        right: 7%;
+
+        width: 350px;
+
+        font-size: 18px;
+        text-align: center;
+
+        padding: 14px 18px;
+    }
+
+    .logocontainer {
+        position: absolute;
+
+        top: calc(8% + 360px);
+        left: 7%;
+        right: 7%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 25px;
+    }
+
+    .logo {
+        position: relative;
+        width: 180px;
+    }
+
+    .desc {
+        margin: 0;
+
+        font-size: 16px;
+        line-height: 1.7;
+
+        text-align: center;
+    }
+}
