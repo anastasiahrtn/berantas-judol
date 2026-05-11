@@ -175,10 +175,10 @@ async function classifyPage() {
             normalizedDomain
         );
 
-        alert(
-            "SAFE WEBSITE\n\n" +
-            "WHITELISTED"
-        );
+        // alert(
+        //     "SAFE WEBSITE\n\n" +
+        //     "WHITELISTED"
+        // );
 
         return;
     }
@@ -211,20 +211,20 @@ async function classifyPage() {
     // }
 
     if (probability > 0.8) {
-        alert(
-            "GAMBLING WEBSITE DETECTED\n\n" +
-            "Probability: " + probability.toFixed(4)
-        );
+        // alert(
+        //     "GAMBLING WEBSITE DETECTED\n\n" +
+        //     "Probability: " + probability.toFixed(4)
+        // );
 
         window.location.href =
             "https://anastasiahrtn.github.io/berantas-judol/page/landing.html";
 
     } else {
 
-        alert(
-            "SAFE WEBSITE\n\n" +
-            "Probability: " + probability.toFixed(4)
-        );
+        // alert(
+        //     "SAFE WEBSITE\n\n" +
+        //     "Probability: " + probability.toFixed(4)
+        // );
     }
 }
 

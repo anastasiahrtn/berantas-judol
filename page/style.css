@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8e7e0;
+
+    height: 120vh;
 }
 
 .oops {
@@ -94,9 +96,10 @@ a {
 
 .footer {
     position: absolute;
-    bottom: 0px;
+
     left: 0;
     right: 0;
+    top: 150vh;
 
     text-align: center;
     font-size: 14px;
