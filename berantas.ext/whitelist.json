@@ -1,0 +1,170 @@
+[
+
+    "google.com", "bing.com", "yahoo.com", "duckduckgo.com", 
+    "baidu.com", "yandex.com", "ecosia.org", "startpage.com", 
+    "ask.com", "naver.com", "perplexity.ai", "brave.com",
+    
+
+    "youtube.com", "dailymotion.com", "vimeo.com", "twitch.tv", 
+    "kick.com", "netflix.com", "hbomax.com", "hulu.com", 
+    "disneyplus.com", "primevideo.com", "apple.com", "paramountplus.com", 
+    "vidio.com", "wetv.vip", "viu.com", "iq.com", "visionplus.id", 
+    
+
+    "reddit.com", "x.com", "threads.net", "quora.com", "medium.com", 
+    "blogspot.com", "wordpress.com", "kaskus.co.id", "kompasiana.com", 
+    "tumblr.com", "substack.com", "indowebster.com",
+
+  
+    "facebook.com", "instagram.com", "pinterest.com", "linkedin.com", 
+    "discord.com", "tiktok.com", "snapchat.com", "tumblr.com", 
+    "beance.net", "dribbble.com", "flickr.com", "line.me",
+
+
+    "whatsapp.com", "telegram.org", "messenger.com", "line.me", 
+    "viber.com", "signal.org", "wechat.com", "michat.sg", "discord.com", 
+    "skype.com", "snapchat.com", "zalo.me", "vk.com", "ok.ru", "mail.ru", 
+    "yandex.ru",
+
+
+    "chatgpt.com", "claude.ai", "perplexity.ai", "gemini.google.com", 
+    "poe.com", "copy.ai", "jasper.ai", "midjourney.com",  
+    "character.ai", "mistral.ai", "deepseek.com", "openai.com", "anthropic.com", 
+
+
+    "github.com", "gitlab.com", "github.io", "bitbucket.org", 
+    "stackoverflow.com", "sourceforge.net", "npmjs.com", "pypi.org", 
+    "docker.com", "kubernetes.io", "hashicorp.com", "vercel.com", 
+    "netlify.com", "heroku.com", "firebase.google.com",
+
+
+    "wikipedia.org", "britannica.com", "coursera.org", "edx.org", 
+    "udemy.com", "khanacademy.org", "researchgate.net", "scholar.google.com", 
+    "academia.edu", "jstor.org", "sciencedirect.com", "ieee.org", 
+    "ruangguru.com", "zenius.net", "brainly.co.id", "codecademy.com", 
+    "freecodecamp.org", "elsevier.com", "springer.com", "nature.com", "scopus.com",
+    "sciencedirect.com", ".edu",
+
+
+    "indonesia.go.id", "pajak.go.id", "kpu.go.id", "setneg.go.id", "kemkes.go.id", 
+    "usa.gov", "gov.uk", "canada.ca", "australia.gov.au", "un.org", "who.int", ".go.id",
+    ".gov", ".gov.uk", ".gov.au", ".gov.ca", ".gov", ".int",
+
+
+    "bca.co.id", "bankmandiri.co.id", "bni.co.id", "bri.co.id", "bi.go.id", 
+    "paypal.com", "stripe.com", "wise.com", "revolut.com", "visa.com", "mastercard.com", 
+    "binance.com", "coinbase.com", "indodax.com", "tokocrypto.com", "etherscan.io", 
+    "midtrans.com", "xendit.co",
+
+
+    "bbc.com", "cnn.com", "reuters.com", "nytimes.com", "theguardian.com", 
+    "aljazeera.com", "detik.com", "kompas.com", "tempo.co", "liputan6.com", 
+    "tribunnews.com", "antaranews.com", "cnbcindonesia.com",
+
+
+    "amazon.com", "ebay.com", "aliexpress.com", "tokopedia.com", "shopee.co.id", 
+    "bukalapak.com", "blibli.com", "lazada.co.id", "zalora.co.id", "carousell.com", 
+    "etsy.com", "gumroad.com", "envato.com",
+
+
+    "drive.google.com", "dropbox.com", "icloud.com", "mega.nz", "onedrive.live.com", 
+    "aws.amazon.com", "azure.microsoft.com", "cloud.google.com", "digitalocean.com", 
+    "linode.com", "cloudflare.com", "fastly.com",
+
+
+    "canva.com", "figma.com", "notion.so", "trello.com", "asana.com", "monday.com", 
+    "slack.com", "zoom.us", "microsoft.com", "adobe.com", "salesforce.com", "hubspot.com", 
+    "zendesk.com", "atlassian.com",
+
+
+    "gmail.com", "outlook.com", "proton.me", "mail.yahoo.com", "gmx.com",
+
+
+    "whatsapp.com", "telegram.org", "messenger.com", "line.me", "viber.com", 
+    "signal.org", "wechat.com", "michat.sg", "discord.com", "skype.com", "snapchat.com", 
+    "zalo.me",
+
+
+    "facebook.com", "instagram.com", "threads.net", "x.com", "tiktok.com", 
+    "linkedin.com", "reddit.com", "quora.com", "pinterest.com", "tumblr.com", 
+    "kaskus.co.id", "indowebster.com", "kompasiana.com",
+
+
+    "medium.com", "blogspot.com", "wordpress.com", "substack.com", "ghost.org", 
+    "dev.to", "hashnode.com",
+    
+
+    "spotify.com", "music.apple.com", "soundcloud.com", "tidal.com", "deezer.com", 
+    "joox.com", "bandcamp.com",
+
+
+    "steampowered.com", "epicgames.com", "roblox.com", "minecraft.net", "nintendo.com", 
+    "playstation.com", "xbox.com", "unity.com", "unrealengine.com", "riotgames.com", 
+    "blizzard.com", "valvesoftware.com", "roblox.com", "garena.com", "rocketleague.com",
+    "gta.com", "rockstargames.com", "fortnite.com", "apexlegends.com", "leagueoflegends.com",
+    
+
+    "traveloka.com", "tiket.com", "booking.com", "airbnb.com", "agoda.com", 
+    "tripadvisor.com", "expedia.com", "maps.google.com", "waze.com", 
+    "garuda-indonesia.com", "trivago.com", "kayak.com", "airbnb.com", "vrbo.com", 
+    "orbitz.com", "airasia.com", "lionair.co.id", "scoot.com", "malindoair.com",
+
+
+    "gojek.com", "grab.com", "foodpanda.com", "ubereats.com", "fedex.com", "ups.com", 
+    "dhl.com", "jne.co.id", "posindonesia.co.id", "jtexpress.id",
+
+
+    "halodoc.com", "alodokter.com", "klikdokter.com", "webmd.com", "mayoclinic.org", 
+    "healthline.com", "who.int", "cdc.gov", "nih.gov", "medlineplus.gov", "goodrx.com", 
+    "zocdoc.com",
+
+
+    "jobstreet.co.id", "glints.com", "karir.com", "linkedin.com", "upwork.com", 
+    "fiverr.com", "freelancer.com", "toptal.com", "indeed.com", "monster.com", 
+    "glassdoor.com",
+
+
+    "virustotal.com", "shodan.io", "haveibeenpwned.com", "nordvpn.com", "expressvpn.com", 
+    "surfshark.com", "torproject.org", "owasp.org", "hackthebox.com", "tryhackme.com",
+
+
+    "niagahoster.co.id", "rumahweb.com", "idcloudhost.com", "godaddy.com", "namecheap.com", 
+    "bluehost.com", "siteground.com",
+
+
+    "kaggle.com", "huggingface.co", "pytorch.org", "tensorflow.org", 
+    "colab.research.google.com", "wandb.ai", "paperswithcode.com", 
+    "stackoverflow.com", "arxiv.org", "towardsdatascience.com",
+
+
+   "hotjar.com", "semrush.com", "ahrefs.com", "mailchimp.com", "hubspot.com", 
+   "google-analytics.com", "mixpanel.com", "segment.com",
+
+
+    "ninite.com", "softonic.com", "filehippo.com", "addons.mozilla.org",
+
+
+    "rumah123.com", "lamudi.co.id", "zillow.com", "otomoto.id", "mobil123.com", 
+    "autotrader.com", "olx.co.id", "carousell.com", "carmudi.co.id", "autobild.com", 
+    "topgear.com", "caranddriver.com",
+
+
+    "vogue.com", "sephora.com", "sociolla.com", "ikea.com", "fentybeauty.com",
+
+
+    "fandom.com", "wikihow.com", "investopedia.com", "dictionary.com",
+
+
+    "bible.com", "quran.com", "catholic.org", "charitynavigator.org", "redcross.org", 
+    "greenpeace.org", "unicef.org", "wwf.org", "doctorswithoutborders.org", ".org",
+
+
+    "canva.com", "figma.com", "behance.net", "dribbble.com", "adobe.com", "pixabay.com",
+    "unsplash.com", "pexels.com", "freepik.com", "envato.com", "videohive.net", 
+    "audiojungle.net", "shutterstock.com", "gettyimages.com", "istockphoto.com",
+    "giphy.com", "tenor.com"
+
+
+
+ 
+]

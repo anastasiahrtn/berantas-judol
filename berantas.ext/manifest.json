@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+
+  "name": "Website Classifier",
+
+  "version": "1.0",
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "model.json",
+        "vocabulary.json",
+        "whitelist.json"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
