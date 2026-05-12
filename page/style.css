@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f8e7e0;
 
-    height: 120vh;
+    height: auto;
 }
 
 .oops {
@@ -25,7 +25,7 @@ body {
     align-items: center; /* vertical alignment */
     gap: 30px; /* space between image and text */
 
-    top: calc(15% + 430px);
+    top: calc(15% + 450px);
     left: calc(10% + 10px);
     right: 10%;
 }
@@ -84,22 +84,36 @@ a {
     transition: all 0.25s ease;
 }
 
-.button:hover {
-    background: rgb(185, 28, 28);
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(255, 0, 0, 0.25);
+
+
+.learnmore-button {
+    position: absolute;
+
+    top: calc(100vh + 150px); 
+    left: 10%;
+
+    padding: 16px 28px;
+
+    background: rgb(94, 29, 29);
+    color: white;
+
+    font-size: 25px;
+    font-weight: 600;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
 }
 
-.button:active {
-    transform: scale(0.98);
-}
 
 .footer {
     position: absolute;
 
     left: 0;
     right: 0;
-    top: 150vh;
+    top: calc(100% + 250px); 
 
     text-align: center;
     font-size: 14px;
@@ -119,6 +133,8 @@ a {
         left: 7%;
         right: 7%;
 
+        text-align: center;
+
         font-size: 42px;
         line-height: 1.1;
     }
@@ -128,6 +144,8 @@ a {
         left: 7%;
         right: 7%;
 
+        text-align: center;
+
         font-size: 24px;
         line-height: 1.4;
     }
@@ -136,6 +154,20 @@ a {
         top: calc(8% + 230px);
         left: 7%;
         right: 7%;
+
+        width: 350px;
+
+        font-size: 18px;
+        text-align: center;
+
+        padding: 14px 18px;
+    }
+
+    .button {
+        top: calc(8% + 230px);
+
+        left: 50%;
+        transform: translateX(-50%);
 
         width: 350px;
 
@@ -161,15 +193,31 @@ a {
 
     .logo {
         position: relative;
+        top: 10px;
         width: 180px;
     }
 
     .desc {
         margin: 0;
 
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.7;
 
         text-align: center;
     }
+
+    .learnmore-button {
+        top: calc(100vh + 150px);
+    
+        left: 50%;
+        transform: translateX(-50%);
+    
+        width: 350px;
+    
+        font-size: 18px;
+        text-align: center;
+    
+        padding: 14px 18px;
+    }
+
 }
