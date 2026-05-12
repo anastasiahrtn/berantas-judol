@@ -1,17 +1,28 @@
+html,
 body {
-    font-family: monospace;
     margin: 0;
     padding: 0;
-    background-color: #f8e7e0;
-
-    height: auto;
+    min-height: 100%;
 }
 
+body {
+    font-family: monospace;
+    background-color: #f8e7e0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
 .oops {
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    right: 10%;
+
+    margin-top: 125px;
+    margin-left: 80px;
+    
+    max-width: 80%;
 
     font-size: 63px;
     font-weight: bold;
@@ -19,26 +30,48 @@ body {
 }
 
 
-.logocontainer {
-    position: absolute;
-    display: flex;
-    align-items: center; /* vertical alignment */
-    gap: 30px; /* space between image and text */
-
-    top: calc(15% + 450px);
-    left: calc(10% + 10px);
-    right: 10%;
-}
-
 .quote {
-    position: absolute;
-    top: calc(15% + 160px); 
-    left: 10%;
-    right: 10%;
+    margin-top: 12px;
+    margin-left: 80px;
+
+    max-width: 80%;
 
     font-size: 40px;
     color: rgb(59, 39, 39);
 }
+
+.button {
+    margin-top: 27px;
+    margin-left: 80px;
+
+    padding: 16px 28px;
+    width: 480px;
+
+    background: rgb(220, 38, 38);
+    color: white;
+
+    font-size: 25px;
+    font-weight: 600;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    transition: all 0.25s ease;
+}
+
+.logocontainer {
+    margin-top: 80px;
+    margin-left: 80px;
+
+    max-width: 90%;
+
+    display: flex;
+    align-items: center; /* vertical alignment */
+    gap: 30px; /* space between image and text */
+
+}
+
 
 .logo {
     position: absolute;
@@ -63,34 +96,14 @@ a {
     text-decoration: none;
 }
 
-.button {
-    position: absolute;
 
-    top: calc(15% + 310px); 
-    left: 10%;
-
-    padding: 16px 28px;
-
-    background: rgb(220, 38, 38);
-    color: white;
-
-    font-size: 25px;
-    font-weight: 600;
-
-    border-radius: 14px;
-
-    cursor: pointer;
-
-    transition: all 0.25s ease;
-}
 
 
 
 .learnmore-button {
-    position: absolute;
-
-    top: calc(100vh + 150px); 
-    left: 10%;
+    margin-top: 80px;
+    margin-left: 80px;
+    max-width: 700px;
 
     padding: 16px 28px;
 
@@ -109,16 +122,16 @@ a {
 
 
 .footer {
-    position: absolute;
-
-    left: 0;
-    right: 0;
-    top: calc(100% + 250px); 
+    margin-top: 80px;
+    bottom: 0px;
 
     text-align: center;
     font-size: 14px;
+
     background-color: black;
-    padding: 15px 15px;
+    color: white;
+
+    padding: 15px;
 }
 
 .anastasiahrtn {
@@ -129,32 +142,30 @@ a {
 @media (max-width: 768px) {
 
     .oops {
-        top: 8%;
-        left: 7%;
-        right: 7%;
 
-        text-align: center;
+        margin-top: 125px;
+        margin-left: 30px;
 
-        font-size: 42px;
-        line-height: 1.1;
+        max-width: 80%;
+
+        font-size: 45px;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
     }
 
     .quote {
-        top: calc(8% + 110px);
-        left: 7%;
-        right: 7%;
+        margin-top: 20px;
+        margin-left: 30px;
 
-        text-align: center;
+        max-width: 80%;
 
         font-size: 24px;
         line-height: 1.4;
     }
 
     .button {
-        top: calc(8% + 230px);
-        left: 7%;
-        right: 7%;
-
+        margin-top: 30px;
+        margin-left: 28px;
         width: 350px;
 
         font-size: 18px;
@@ -163,26 +174,10 @@ a {
         padding: 14px 18px;
     }
 
-    .button {
-        top: calc(8% + 230px);
-
-        left: 50%;
-        transform: translateX(-50%);
-
-        width: 350px;
-
-        font-size: 18px;
-        text-align: center;
-
-        padding: 14px 18px;
-    }
 
     .logocontainer {
-        position: absolute;
-
-        top: calc(8% + 360px);
-        left: 7%;
-        right: 7%;
+        margin-top: 50px;
+        margin-left: 20px;
 
         display: flex;
         flex-direction: column;
@@ -194,7 +189,7 @@ a {
     .logo {
         position: relative;
         top: 10px;
-        width: 180px;
+        width: 250px;
     }
 
     .desc {
@@ -203,21 +198,19 @@ a {
         font-size: 18px;
         line-height: 1.7;
 
-        text-align: center;
     }
 
     .learnmore-button {
-        top: calc(100vh + 150px);
-    
-        left: 50%;
-        transform: translateX(-50%);
-    
+        margin-top: 50px;
+        margin-left: 28px;
         width: 350px;
-    
+
         font-size: 18px;
         text-align: center;
-    
+
         padding: 14px 18px;
     }
+
+
 
 }
