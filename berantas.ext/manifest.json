@@ -5,6 +5,15 @@
 
   "version": "1.0",
 
+  "icons": {
+    "128": "thumbnail.png"
+  },
+
+  "action": {
+    "default_title": "Ayo Berantas Judol",
+    "default_icon": "thumbnail.png"
+  },
+
   "permissions": [
     "tabs"
   ],
